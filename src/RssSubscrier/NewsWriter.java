@@ -25,13 +25,15 @@ public class NewsWriter implements Runnable
             {
                 CommonInformationItem item = buffer.get();
 
-                Path path = Paths.get("c:\\" + item.getFileName()+".txt");
+                Path path = Paths.get("c:\\" + item.getFileName() + ".txt");
 
                 try
                 {
                     BufferedWriter fileWriter = Files.newBufferedWriter(path, StandardOpenOption.CREATE);
                     fileWriter.write(item.toString());
+                    fileWriter.flush();
 
+                    fileWriter.close();
                 }
                 catch (IOException e)
                 {
