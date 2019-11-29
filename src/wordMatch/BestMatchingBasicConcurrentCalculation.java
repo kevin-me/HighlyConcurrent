@@ -13,7 +13,6 @@ public class BestMatchingBasicConcurrentCalculation
 
         int nunCores = Runtime.getRuntime().availableProcessors();
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(nunCores);
-
         int size = dictionary.size();
         int step = size / nunCores;
         int startIndex, endIndex;
