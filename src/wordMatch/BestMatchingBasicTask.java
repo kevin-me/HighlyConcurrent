@@ -22,7 +22,6 @@ public class BestMatchingBasicTask implements Callable<BestMatchingData>
         this.dictionary = dictionary;
         this.word = word;
     }
-
     @Override
     public BestMatchingData call() throws Exception
     {

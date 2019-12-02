@@ -13,7 +13,6 @@ public class WordsLoader
 {
     public static List<String> load(String s) throws Exception
     {
-
         List<String> data = new ArrayList<>();
         Path file = Paths.get(s);
         InputStream in = Files.newInputStream(file);

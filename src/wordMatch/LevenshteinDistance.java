@@ -57,7 +57,6 @@ public class LevenshteinDistance
         }
         return d[n][m];
 
-
     }
 
     private static int min(int i, int j, int k)

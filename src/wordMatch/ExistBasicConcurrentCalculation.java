@@ -58,5 +58,4 @@ public class ExistBasicConcurrentCalculation
             return result;
         }
     }
-
 }

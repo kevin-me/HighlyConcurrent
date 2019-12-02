@@ -26,4 +26,5 @@ public class BestMatchingData
     {
         this.minDistance = minDistance;
     }
+    
 }

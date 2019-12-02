@@ -28,6 +28,5 @@ public class BestMatchingSerialCalculation
         result.setMinDistance(minDistance);
         result.setWords(results);
         return result;
-
     }
 }

@@ -47,6 +47,5 @@ public class BestMatchingSericalMain
 
         System.out.println("Minimum Distance:" + result);
 
-
     }
 }

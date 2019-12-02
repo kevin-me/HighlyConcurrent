@@ -38,6 +38,5 @@ public class ExistBasicTask implements Callable<Boolean>
             return false;
         }
         throw new NoSuchElementException("words is not exits!");
-
     }
 }
